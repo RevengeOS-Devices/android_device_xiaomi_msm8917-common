@@ -17,6 +17,9 @@
 
 VENDOR_PATH := device/xiaomi/msm8917-common
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(VENDOR_PATH)/overlay \
