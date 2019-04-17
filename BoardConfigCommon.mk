@@ -81,7 +81,7 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
-BOARD_CHARGER_ENABLE_SUSPEND := true
+BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
@@ -134,9 +134,6 @@ TARGET_COMPILE_WITH_MSM_KERNEL	:= true
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
-
-# Lineage Hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(VENDOR_PATH)/lineagehw|**/*.java
 
 # Tap2Wake
 TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
