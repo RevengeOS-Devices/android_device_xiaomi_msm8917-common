@@ -159,6 +159,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.data.mode=concurrent
 
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.protected_contents=true
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true \
