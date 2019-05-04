@@ -44,7 +44,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.safx.pbe.enabled=true \
     vendor.tunnel.audio.encode=false \
     vendor.voice.conc.fallbackpath=deep-buffer \
-    vendor.voice.path.for.pcm.voip=true
+    vendor.voice.path.for.pcm.voip=true \
+    hpx_send_params=1 \
+    persist.audio.dirac.speaker=true \
+    vendor.audio.use.dts_eagle=true \
+    use.dts_eagle=true
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
