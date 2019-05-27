@@ -388,9 +388,9 @@
          app, they can be remapped here. The format is
          "oldname:newname", one per entry. -->
     <string-array name="config_displayModeMappings" translatable="false">
-        <item>A_Standard:standard</item>
-        <item>B_Warm mode:reading</item>
-        <item>D_Cold mode:dynamic</item>
+        <item>mode_0:standard</item>
+        <item>mode_1:reading</item>
+        <item>mode_3:dynamic</item>
     </string-array>
 
     <!-- Should we filter any display modes which are unampped? -->
