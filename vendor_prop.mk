@@ -65,6 +65,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.gyro.android=1 \
     persist.camera.HAL3.enabled=1 \
     persist.camera.is_type=1 \
+    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android,com.snapchat.android \
     vidc.enc.dcvs.extra-buff-count=2
 
 # CNE
