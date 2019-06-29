@@ -22,6 +22,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(VENDOR_PATH)/overlay \
     $(VENDOR_PATH)/overlay-lineage
 
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
+
 # Properties
 -include $(VENDOR_PATH)/vendor_prop.mk
 
