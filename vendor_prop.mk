@@ -51,7 +51,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.qcom.bluetooth.soc=smd
+    vendor.qcom.bluetooth.soc=smd \
+    persist.bluetooth.bluetooth_audio_hal.disabled=true
 
 # Boot
 PRODUCT_PROPERTY_OVERRIDES += \
