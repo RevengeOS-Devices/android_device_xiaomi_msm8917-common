@@ -205,6 +205,7 @@ TARGET_DISABLE_WCNSS_CONFIG_COPY := true
 WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+BOARD_USES_AOSP_WLAN_HAL := true
 
 # Inherit the common proprietary files
 -include vendor/xiaomi/msm8917-common/BoardConfigVendor.mk
