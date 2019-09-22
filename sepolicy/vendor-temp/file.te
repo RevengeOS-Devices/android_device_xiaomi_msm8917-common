@@ -2,4 +2,3 @@ type persist_file, file_type;
 type bt_firmware_file, file_type;
 type dsp_firmware_file, file_type;
 type firmware_file, file_type;
-type dsp_file, file_type;
