@@ -178,7 +178,7 @@ TARGET_USES_OLD_MNC_FORMAT := true
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
-BOARD_SEPOLICY_DIRS +=  $(COMMON_PATH)/sepolicy/vendor-temp
+BOARD_SEPOLICY_DIRS +=  $(VENDOR_PATH)/sepolicy/vendor-temp
 
 # We modify several neverallows, so let the build proceed
 ifneq ($(TARGET_BUILD_VARIANT),user)
